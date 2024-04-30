@@ -1,0 +1,950 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="105" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>eventid_playerprop_pts_rebs_astsV2.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="Unnamed: 0" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="id" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="sport_key" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="sport_title" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="commence_time" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="home_team" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="away_team" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="bookmaker_key" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="bookmaker_title" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="prop_market" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="outcome" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="player_name" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="price" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="prop" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="MATCHUP" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+            <Field name="GAME_DATE" size="254" source="File: C:\Users\byron\Downloads\eventid_playerprop_pts_rebs_astsV2.csv\eventid_playerprop_pts_rebs_astsV2.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="153" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field_1" selected="False" />
+            <SelectField field="Unnamed: 0" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="249" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>23_24_merged_NBA_dataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="Player_ID" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="player_name" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="SEASON_ID" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="Game_ID" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="GAME_DATE" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="MATCHUP" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="WL" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="MIN" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="FGM" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="FGA" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="FG_PCT" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="FG3M" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="FG3A" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="FG3_PCT" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="FTM" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="FTA" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="FT_PCT" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="OREB" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="DREB" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="REB" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="AST" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="STL" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="BLK" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="TOV" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="PF" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="PTS" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+            <Field name="PLUS_MINUS" size="254" source="File: C:\Users\byron\Downloads\23_24_merged_NBA_dataset.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="174" y="249" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="REPLACE([MATCHUP], ' @ ', ' vs. ')&#xA;" field="MATCHUP" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[MATCHUP = REPLACE([MATCHUP], ' @ ', ' vs. ')
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="258" y="141" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="REPLACE([MATCHUP], 'PHO', 'PHX')" field="MATCHUP" size="254" type="V_String" />
+            <FormulaField expression="REPLACE([player_name], &quot;DeâAnthony Melton&quot;, &quot;De'Anthony Melton&quot;)" field="player_name" size="254" type="V_String" />
+            <FormulaField expression="REPLACE([player_name], 'Immanuel Quickley (TOR)', 'Immanuel Quickley')" field="player_name" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>MATCHUP = REPLACE([MATCHUP], 'PHO', 'PHX')
+player_name = REPLACE([player_name], ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="738" y="237" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#1</Connection>
+            <Connection>#2</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="846" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="id" selected="True" />
+            <SelectField field="sport_key" selected="False" />
+            <SelectField field="sport_title" selected="True" />
+            <SelectField field="commence_time" selected="False" />
+            <SelectField field="bookmaker_key" selected="False" />
+            <SelectField field="bookmaker_title" selected="True" />
+            <SelectField field="price" selected="True" />
+            <SelectField field="away_team" selected="True" />
+            <SelectField field="home_team" selected="True" />
+            <SelectField field="MATCHUP" selected="True" />
+            <SelectField field="Right_MATCHUP" selected="True" />
+            <SelectField field="Right_GAME_DATE" selected="True" />
+            <SelectField field="GAME_DATE" selected="True" />
+            <SelectField field="Field_1" selected="False" />
+            <SelectField field="Player_ID" selected="True" />
+            <SelectField field="Right_player_name" selected="True" />
+            <SelectField field="player_name" selected="True" />
+            <SelectField field="SEASON_ID" selected="True" />
+            <SelectField field="Game_ID" selected="True" />
+            <SelectField field="prop_market" selected="True" />
+            <SelectField field="outcome" selected="True" rename="prop_type" />
+            <SelectField field="prop" selected="True" type="Double" size="8" />
+            <SelectField field="WL" selected="True" type="V_WString" size="2147483647" />
+            <SelectField field="MIN" selected="True" type="Double" size="8" />
+            <SelectField field="FGM" selected="True" type="Double" size="8" />
+            <SelectField field="FGA" selected="True" type="Double" size="8" />
+            <SelectField field="FG_PCT" selected="True" type="Double" size="8" />
+            <SelectField field="FG3M" selected="True" type="Double" size="8" />
+            <SelectField field="FG3A" selected="True" type="Double" size="8" />
+            <SelectField field="FG3_PCT" selected="True" type="Double" size="8" />
+            <SelectField field="FTM" selected="True" type="Double" size="8" />
+            <SelectField field="FTA" selected="True" type="Double" size="8" />
+            <SelectField field="FT_PCT" selected="True" type="Double" size="8" />
+            <SelectField field="OREB" selected="True" type="Double" size="8" />
+            <SelectField field="DREB" selected="True" type="Double" size="8" />
+            <SelectField field="REB" selected="True" type="Double" size="8" />
+            <SelectField field="AST" selected="True" type="Double" size="8" />
+            <SelectField field="STL" selected="True" type="Double" size="8" />
+            <SelectField field="BLK" selected="True" type="Double" size="8" />
+            <SelectField field="TOV" selected="True" type="Double" size="8" />
+            <SelectField field="PF" selected="True" type="Double" size="8" />
+            <SelectField field="PTS" selected="True" type="Double" size="8" />
+            <SelectField field="PLUS_MINUS" selected="True" type="Double" size="8" />
+            <SelectField field="Right_Field_1" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1038" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [prop_market] = 'player_assists' and [prop_type] = 'Over' and [prop] &gt; [AST] THEN 1 ELSE 0 ENDIF" field="Bet_outcome" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [prop_market] = 'player_assists' and [prop_type] = 'Under' and [prop] &lt; [AST] THEN 1 ELSE [Bet_outcome] ENDIF" field="Bet_outcome" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [prop_market] = 'player_rebounds' and [prop_type] = 'Over' and [prop] &gt; [REB] THEN 1 ELSE [Bet_outcome] ENDIF" field="Bet_outcome" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [prop_market] = 'player_rebounds' and [prop_type] = 'Under' and [prop] &lt; [REB] THEN 1 ELSE [Bet_outcome] ENDIF" field="Bet_outcome" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [prop_market] = 'player_points' and [prop_type] = 'Over' and [prop] &gt; [PTS] THEN 1 ELSE [Bet_outcome] ENDIF" field="Bet_outcome" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [prop_market] = 'player_points' and [prop_type] = 'Under' and [prop] &lt; [PTS] THEN 1 ELSE [Bet_outcome] ENDIF" field="Bet_outcome" size="1073741823" type="V_WString" />
+            <FormulaField expression="if [WL] = 'W' then 1 else 0 endif" field="WL" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Bet_outcome = IF [prop_market] = 'player_assists' and [prop_type] = 'Over' and [...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="906" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\byron\OneDrive\Grad School\Spring 2024\Advanced Machine Learning\Project\Sports Betting\player_prop_final_dataset.csv</File>
+          <Passwords />
+          <Disable>True</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>player_prop_final_dataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings>
+        <Position x="1242" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Number">False</Value>
+          <Value name="NNumber">1000</Value>
+          <Value name="Percent">True</Value>
+          <Value name="NPercent">10</Value>
+          <Value name="Deterministic">False</Value>
+          <Value name="Seed">458676342</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="RandomRecords.yxmc" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1398" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\byron\OneDrive\Grad School\Spring 2024\Advanced Machine Learning\Project\Sports Betting\10%rand_samp_player_prop_final_dataset.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>10%rand_samp_player_prop_final_dataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="942" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="sport_title" selected="False" />
+            <SelectField field="bookmaker_title" selected="False" />
+            <SelectField field="price" selected="False" />
+            <SelectField field="MATCHUP" selected="False" />
+            <SelectField field="Right_MATCHUP" selected="False" />
+            <SelectField field="Right_GAME_DATE" selected="False" />
+            <SelectField field="Right_player_name" selected="False" />
+            <SelectField field="SEASON_ID" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1158" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>WL</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-04-27 16:34:00</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>1</Operand>
+              <StartDate>2024-04-27 16:34:00</StartDate>
+              <EndDate>2024-04-27 16:34:00</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[WL] = "1"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1121" y="54" width="334" height="205" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>year filter insight (20% of data is in 2024)</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>year filter insight (20% of data is in 2024)</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1146" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>Contains</Operator>
+                <Field>GAME_DATE</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2024-04-26 10:47:21</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>2023</Operand>
+                  <StartDate>2024-04-26 10:47:21</StartDate>
+                  <EndDate>2024-04-26 10:47:21</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Contains([GAME_DATE],"2023")</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1326" y="128" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>Contains</Operator>
+                <Field>GAME_DATE</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2024-04-26 10:47:46</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>2024</Operand>
+                  <StartDate>2024-04-26 10:47:46</StartDate>
+                  <EndDate>2024-04-26 10:47:46</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Contains([GAME_DATE],"2024")</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1577" y="187" width="245" height="417" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>prop market filter</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>prop market filter</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1602" y="272" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>prop_market</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2024-04-24 14:22:07</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>player_rebounds</Operand>
+                  <StartDate>2024-04-24 14:22:07</StartDate>
+                  <EndDate>2024-04-24 14:22:07</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[prop_market] = "player_rebounds"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1602" y="368" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>prop_market</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2024-04-24 14:20:50</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>player_assists</Operand>
+                  <StartDate>2024-04-24 14:20:50</StartDate>
+                  <EndDate>2024-04-24 14:20:50</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[prop_market] = "player_assists"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1602" y="464" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>prop_market</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2024-04-24 14:20:32</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>player_points</Operand>
+                  <StartDate>2024-04-24 14:20:32</StartDate>
+                  <EndDate>2024-04-24 14:20:32</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[prop_market] = "player_points"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1698" y="236" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Bet_outcome</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2024-04-24 14:29:00</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>1</Operand>
+                  <StartDate>2024-04-24 14:29:00</StartDate>
+                  <EndDate>2024-04-24 14:29:00</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Bet_outcome] = "1"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1698" y="368" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Bet_outcome</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2024-04-24 14:29:00</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>1</Operand>
+                  <StartDate>2024-04-24 14:29:00</StartDate>
+                  <EndDate>2024-04-24 14:29:00</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Bet_outcome] = 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1698" y="488" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Bet_outcome</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2024-04-24 14:29:00</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>1</Operand>
+                  <StartDate>2024-04-24 14:29:00</StartDate>
+                  <EndDate>2024-04-24 14:29:00</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Bet_outcome] = 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="389" y="164" width="217" height="157" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Join Section</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Join Section</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="414" y="237" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="player_name" />
+                <Field field="MATCHUP" />
+                <Field field="GAME_DATE" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="player_name" />
+                <Field field="MATCHUP" />
+                <Field field="GAME_DATE" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_id" selected="False" input="Left_" />
+                    <SelectField field="Left_sport_key" selected="False" input="Left_" />
+                    <SelectField field="Left_bookmaker_key" selected="False" input="Left_" />
+                    <SelectField field="Left_bookmaker_title" selected="False" input="Left_" />
+                    <SelectField field="Right_Field_1" selected="True" rename="Right_Field_1" input="Right_" />
+                    <SelectField field="Right_player_name" selected="True" rename="Right_player_name" input="Right_" />
+                    <SelectField field="Right_GAME_DATE" selected="True" rename="Right_GAME_DATE" input="Right_" />
+                    <SelectField field="Right_MATCHUP" selected="True" rename="Right_MATCHUP" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="522" y="213" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="player_name" />
+                <Field field="GAME_DATE" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="player_name" />
+                <Field field="GAME_DATE" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_player_name" selected="True" rename="Right_player_name" input="Right_" />
+                    <SelectField field="Right_GAME_DATE" selected="True" rename="Right_GAME_DATE" input="Right_" />
+                    <SelectField field="Right_MATCHUP" selected="True" rename="Right_MATCHUP" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="7" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="7" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="True" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="True" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="True" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Left" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Right" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>NBA data merge</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="02549cc9-afeb-457d-8d01-c863c7da1e17" />
+      <Telemetry>
+        <PreviousWorkflowId value="59914acd-22b7-4315-a332-a7d6db429e8a" />
+        <OriginWorkflowId value="f29aba2a-e664-4025-85ed-496df4d16675" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
